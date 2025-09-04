@@ -1,0 +1,26 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0",
+  "devDependencies": {
+    "vite": "^7.1.2"
+  },
+  "dependencies": {
+   "@idos-network/client": "https://pkg.pr.new/idos-network/idos-sdk-js/@idos-network/client@1086",
+    "@stablelib/base64": "^2.0.1",
+    "@stablelib/hex": "^2.0.1",
+    "@stablelib/utf8": "^2.0.1",
+    "tweetnacl": "^1.0.3",
+    "vite-plugin-node-polyfills": "^0.24.0",
+    "xrpl": "^4.4.0",
+    "xumm": "^1.8.0"
+  }
+}

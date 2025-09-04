@@ -1,0 +1,29 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0",
+  "dependencies": {
+    "@gemwallet/api": "^3.8.0",
+    "@idos-network/client": "https://pkg.pr.new/idos-network/idos-sdk-js/@idos-network/client@a7b07311528d7fdb96f397cbeaea16c95efd55ac",
+    "@idos-network/issuer": "https://pkg.pr.new/idos-network/idos-sdk-js/@idos-network/issuer@a7b07311528d7fdb96f397cbeaea16c95efd55ac",
+    "@stablelib/base64": "^2.0.1",
+    "@stablelib/hex": "^2.0.1",
+    "tweetnacl": "^1.0.3",
+    "vite-plugin-node-polyfills": "^0.24.0",
+    "xrpl": "^4.4.0",
+    "xumm": "^1.8.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.2"
+  }
+}
